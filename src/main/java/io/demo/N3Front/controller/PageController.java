@@ -9,4 +9,9 @@ public class PageController {
   public String main() {
     return "home";
   }
+
+  @GetMapping("/login")
+  public String Login() {
+    return "login";
+  }
 }
